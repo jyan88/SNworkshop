@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Tests the process for submitting an issue from beginning to end</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Comic Publisher issue flow test</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>cory.seering@snc</sys_created_by>
+        <sys_created_on>2019-06-18 20:34:28</sys_created_on>
+        <sys_id>270bd1bedb023300d422769e0f961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Comic Publisher issue flow test</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sys_atf_test_270bd1bedb023300d422769e0f961913</sys_update_name>
+        <sys_updated_by>cory.seering@snc</sys_updated_by>
+        <sys_updated_on>2019-06-18 20:34:28</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=270bd1bedb023300d422769e0f961913"/>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Issue" max_length="40" name="x_comic_publisher_issue" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Artist" max_length="32" name="artist" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Editor" max_length="32" name="editor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="250" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Release date" max_length="40" name="release_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Planning" sequence="100" value="planning"/>
+                <element inactive_on_update="false" label="Development" sequence="200" value="development"/>
+                <element inactive_on_update="false" label="Design" sequence="300" value="design"/>
+                <element inactive_on_update="false" label="Ready for Editing" sequence="400" value="ready_for_editing"/>
+                <element inactive_on_update="false" label="Final approval" sequence="500" value="final_approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="600" value="approved"/>
+                <element inactive_on_update="false" label="Published" sequence="700" value="published"/>
+                <element inactive_on_update="false" label="Canceled" sequence="800" value="canceled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Story arc" max_length="32" name="story_arc" reference="x_comic_publisher_story_arc" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="32" name="title" reference="x_comic_publisher_title" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Writer" max_length="32" name="writer" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="story_arc"/>
+        </index>
+        <index name="index2">
+            <element name="editor"/>
+        </index>
+        <index name="index3">
+            <element name="artist"/>
+        </index>
+        <index name="index4">
+            <element name="writer"/>
+        </index>
+        <index name="index5">
+            <element name="title"/>
+        </index>
+    </element>
+</database>

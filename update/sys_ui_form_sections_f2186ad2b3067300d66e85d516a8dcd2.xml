@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f2186ad2b3067300d66e85d516a8dcd2" sys_domain="global" table="x_comic_publisher_title" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-17 12:53:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be186ad2b3067300d66e85d516a8dcd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_comic_publisher_title" name="x_comic_publisher_title" sys_domain="global" view="Default view">f2186ad2b3067300d66e85d516a8dcd2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_comic_publisher_title" sys_domain="global" view="Default view">83cd0046b34a3300d66e85d516a8dce6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-17 12:53:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_comic_publisher_title</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-17 12:53:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2186ad2b3067300d66e85d516a8dcd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_comic_publisher_title</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f2186ad2b3067300d66e85d516a8dcd2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-17 12:53:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

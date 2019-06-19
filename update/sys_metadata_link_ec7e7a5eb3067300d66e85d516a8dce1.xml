@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>52dd365eb3067300d66e85d516a8dc88</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role">
+    <sys_group_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <group display_value="Comic Book Writers" name="Comic Book Writers">00cdf25eb3067300d66e85d516a8dc8a</group>
+        <inherits>true</inherits>
+        <role display_value="x_comic_publisher.writer" name="x_comic_publisher.writer">3ce0df81b3023300d66e85d516a8dc46</role>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 14:28:39</sys_created_on>
+        <sys_id>52dd365eb3067300d66e85d516a8dc88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 14:28:39</sys_updated_on>
+    </sys_group_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 14:31:16</sys_created_on>
+        <sys_id>ec7e7a5eb3067300d66e85d516a8dce1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2019-06-17 09:28:39</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sys_metadata_link_ec7e7a5eb3067300d66e85d516a8dce1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 14:31:16</sys_updated_on>
+        <tablename>sys_group_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

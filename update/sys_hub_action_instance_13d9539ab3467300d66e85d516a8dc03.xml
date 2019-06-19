@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="State transition">54f16052b3427300d66e85d516a8dc7d</flow>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 16:31:03</sys_created_on>
+        <sys_id>13d9539ab3467300d66e85d516a8dc03</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sys_hub_action_instance_13d9539ab3467300d66e85d516a8dc03</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 16:38:07</sys_updated_on>
+        <ui_id>6179b0a9-f4d4-4351-8fa1-fe4124151bfc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=13d9539ab3467300d66e85d516a8dc03"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13d9539ab3467300d66e85d516a8dc03</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 16:31:03</sys_created_on>
+        <sys_id>9bd9539ab3467300d66e85d516a8dc04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 16:31:03</sys_updated_on>
+        <value>x_comic_publisher_publishing_task</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=13d9539ab3467300d66e85d516a8dc03"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>13d9539ab3467300d66e85d516a8dc03</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 16:31:03</sys_created_on>
+        <sys_id>1bd9539ab3467300d66e85d516a8dc04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 16:31:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>assigned_to={"display":"Abel Tuter","value":"62826bf03710200044e0bfc8bcbe5df1"}^short_description={{Updated_1.current.name}} {{Updated_1.current.number}} revision edits^description=Edit revisions {{Updated_1.current.name}} {{Updated_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>13d9539ab3467300d66e85d516a8dc03</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 16:31:03</sys_created_on>
+        <sys_id>57d9539ab3467300d66e85d516a8dc04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 16:31:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

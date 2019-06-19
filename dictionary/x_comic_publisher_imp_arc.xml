@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Story Arcs" max_length="40" name="x_comic_publisher_imp_arc" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Crossover" label="Crossover" max_length="40" name="u_crossover" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="19180" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First issue" label="First issue" max_length="40" name="u_first_issue" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last issue" label="Last issue" max_length="40" name="u_last_issue" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags" label="Tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+    </element>
+</database>

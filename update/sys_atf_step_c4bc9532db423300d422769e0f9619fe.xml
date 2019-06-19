@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following UI actions are visible: Develop
+With a failure timeout of 5 Seconds</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>cory.seering@snc</sys_created_by>
+        <sys_created_on>2019-06-18 20:41:42</sys_created_on>
+        <sys_id>c4bc9532db423300d422769e0f9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sys_atf_step_c4bc9532db423300d422769e0f9619fe</sys_update_name>
+        <sys_updated_by>cory.seering@snc</sys_updated_by>
+        <sys_updated_on>2019-06-18 20:41:42</sys_updated_on>
+        <table>x_comic_publisher_issue</table>
+        <test display_value="Comic Publisher issue flow test">270bd1bedb023300d422769e0f961913</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c4bc9532db423300d422769e0f9619fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c4bc9532db423300d422769e0f9619fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cory.seering@snc</sys_created_by>
+        <sys_created_on>2019-06-18 20:41:42</sys_created_on>
+        <sys_id>64dc5532db423300d422769e0f961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cory.seering@snc</sys_updated_by>
+        <sys_updated_on>2019-06-18 20:41:42</sys_updated_on>
+        <value>x_comic_publisher_issue</value>
+        <variable display_value="">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c4bc9532db423300d422769e0f9619fe</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cory.seering@snc</sys_created_by>
+        <sys_created_on>2019-06-18 20:41:42</sys_created_on>
+        <sys_id>a0dc5532db423300d422769e0f961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cory.seering@snc</sys_updated_by>
+        <sys_updated_on>2019-06-18 20:41:42</sys_updated_on>
+        <value/>
+        <variable display_value="">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c4bc9532db423300d422769e0f9619fe</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>cory.seering@snc</sys_created_by>
+        <sys_created_on>2019-06-18 20:41:42</sys_created_on>
+        <sys_id>acdc5532db423300d422769e0f961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cory.seering@snc</sys_updated_by>
+        <sys_updated_on>2019-06-18 20:41:42</sys_updated_on>
+        <value>924b945eb3027300d66e85d516a8dc8b</value>
+        <variable display_value="">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+</record_update>

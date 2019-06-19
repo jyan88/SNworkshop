@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>A record has been inserted in the Story Arc table</description>
+        <event_name>x_comic_publisher.story_arc.inserted</event_name>
+        <fired_by>A business rule on the Story Arc table</fired_by>
+        <queue/>
+        <suffix>story_arc.inserted</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 15:47:03</sys_created_on>
+        <sys_id>36cf0f16b3467300d66e85d516a8dcc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_comic_publisher.story_arc.inserted</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sysevent_register_36cf0f16b3467300d66e85d516a8dcc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 15:47:03</sys_updated_on>
+        <table>x_comic_publisher_story_arc</table>
+    </sysevent_register>
+</record_update>

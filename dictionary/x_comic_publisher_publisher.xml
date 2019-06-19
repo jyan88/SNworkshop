@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Publisher" max_length="40" name="x_comic_publisher_publisher" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="8000" name="description" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="1024" name="website" type="url"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

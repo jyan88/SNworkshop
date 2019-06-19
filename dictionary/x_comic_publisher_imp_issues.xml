@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Import Issues" max_length="40" name="x_comic_publisher_imp_issues" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Artist" label="Artist" max_length="40" name="u_artist" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="8678" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Editor" label="Editor" max_length="40" name="u_editor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="96" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Release date" label="Release date" max_length="40" name="u_release_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Story arc" label="Story arc" max_length="40" name="u_story_arc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags" label="Tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Title" label="Title" max_length="40" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Writer" label="Writer" max_length="40" name="u_writer" type="string"/>
+    </element>
+</database>
