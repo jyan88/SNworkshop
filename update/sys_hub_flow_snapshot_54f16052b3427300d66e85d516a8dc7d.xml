@@ -14,7 +14,7 @@
         <master>true</master>
         <name>State transition</name>
         <outputs/>
-        <parent_flow display_value="State transition">eb8c909eb3027300d66e85d516a8dc1c</parent_flow>
+        <parent_flow/>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>

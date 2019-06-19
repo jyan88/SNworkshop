@@ -38,7 +38,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="State transition">eb8c909eb3027300d66e85d516a8dc1c</model>
+        <model/>
         <model_id>eb8c909eb3027300d66e85d516a8dc1c</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_eb8c909eb3027300d66e85d516a8dc1c</name>

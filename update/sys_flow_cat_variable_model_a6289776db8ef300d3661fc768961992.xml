@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ea289776db8ef300d3661fc768961991</id>
+        <name>Copy of State transition</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 05:40:36</sys_created_on>
+        <sys_id>a6289776db8ef300d3661fc768961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of State transition</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_a6289776db8ef300d3661fc768961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 05:40:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

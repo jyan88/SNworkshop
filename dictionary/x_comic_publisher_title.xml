@@ -2,6 +2,7 @@
     <element label="Title" max_length="40" name="x_comic_publisher_title" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="8000" name="description" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="32" name="publisher" reference="x_comic_publisher_publisher" type="reference"/>
+        <element label="Story arc" max_length="40" name="story_arc" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" max_length="250" name="title" type="string"/>
         <index name="index">
             <element name="publisher"/>

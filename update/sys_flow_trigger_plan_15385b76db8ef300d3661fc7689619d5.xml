@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"15385b76db8ef300d3661fc7689619d5","name":"plan"}}</plan>
+        <plan_id>ea289776db8ef300d3661fc768961991</plan_id>
+        <snapshot>f64a17f6db8ef300d3661fc7689619c8</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-19 05:40:48</sys_created_on>
+        <sys_id>15385b76db8ef300d3661fc7689619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>99385b76db8ef300d3661fc7689619d3</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_15385b76db8ef300d3661fc7689619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-19 05:40:48</sys_updated_on>
+        <trigger display_value="">99385b76db8ef300d3661fc7689619d3</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

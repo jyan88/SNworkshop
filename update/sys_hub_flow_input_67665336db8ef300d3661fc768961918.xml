@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -20,30 +20,30 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>table_name</dependent>
-        <dependent_on_field>table_name</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>current</element>
+        <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="">document_id</internal_type>
-        <label>Record</label>
-        <mandatory>true</mandatory>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
         <max_length>200</max_length>
         <model/>
-        <model_id>eb8c909eb3027300d66e85d516a8dc1c</model_id>
+        <model_id>de74d3fedb4ef300d3661fc768961963</model_id>
         <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_eb8c909eb3027300d66e85d516a8dc1c</name>
+        <name>var__m_sys_hub_flow_input_de74d3fedb4ef300d3661fc768961963</name>
         <next_element/>
-        <order>100</order>
+        <order>101</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -59,16 +59,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-17 03:06:47</sys_created_on>
-        <sys_id>cac16c12b3427300d66e85d516a8dc0c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>var__m_sys_hub_flow_input_eb8c909eb3027300d66e85d516a8dc1c</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_created_on>2019-06-19 05:33:02</sys_created_on>
+        <sys_id>67665336db8ef300d3661fc768961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>var__m_sys_hub_flow_input_de74d3fedb4ef300d3661fc768961963</sys_name>
+        <sys_package display_value="Comic Publisher" source="x_comic_publisher">5690d381b3023300d66e85d516a8dcef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Comic Publisher">5690d381b3023300d66e85d516a8dcef</sys_scope>
-        <sys_update_name>sys_hub_flow_input_cac16c12b3427300d66e85d516a8dc0c</sys_update_name>
+        <sys_update_name>sys_hub_flow_input_67665336db8ef300d3661fc768961918</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-18 20:04:56</sys_updated_on>
+        <sys_updated_on>2019-06-19 05:33:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
