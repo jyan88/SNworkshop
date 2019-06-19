@@ -6,7 +6,7 @@
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="250" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Release date" max_length="40" name="release_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="planning" label="State" max_length="40" name="state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Planning" sequence="100" value="planning"/>
                 <element inactive_on_update="false" label="Development" sequence="200" value="development"/>

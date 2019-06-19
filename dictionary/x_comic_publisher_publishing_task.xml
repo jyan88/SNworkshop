@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Publishing task" max_length="40" name="x_comic_publisher_publishing_task" type="collection"/>
+    <element extends="task" label="Publishing task" max_length="40" name="x_comic_publisher_publishing_task" type="collection">
+        <element dependent="comic_record_table" dependent_on_field="comic_record_table" label="Comic record" max_length="32" name="comic_record" type="document_id" use_dependent_field="true"/>
+        <element label="Comic record table" max_length="80" name="comic_record_table" type="table_name"/>
+    </element>
 </database>
